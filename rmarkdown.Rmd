@@ -1,0 +1,20 @@
+---
+title: "My First Assignment"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R-studio Project
+
+This project contains a simple R script that prints all integers betweeen 1 and 10 (inclusive).
+
+### Code
+``` {r cell1}
+for (n in 1:10) {
+  print(n)
+}
+```
+
